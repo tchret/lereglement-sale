@@ -1,8 +1,5 @@
 export default {
   mode: 'spa',
-  router: {
-    base: '/lereglement-sale/'
-  },
   /*
    ** Headers of the page
    */
@@ -23,7 +20,7 @@ export default {
     ],
     script: [
       { src: 'https://apis.google.com/js/platform.js' },
-      { src: 'https://cdn.jsdelivr.net/npm/particles.js' }
+      { src: 'https://cdn.jsdelivr.net/npm/particles.js@2.0.0' }
     ]
   },
   /*

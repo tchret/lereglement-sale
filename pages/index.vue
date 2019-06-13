@@ -1,11 +1,11 @@
 <template lang="pug">
   .layout
-    .navbar
+    .navbar 
       logo
       .menu
         .g-ytsubscribe(data-channelid="UCcqe1EHmdaLVBwfqk5OtmXw" data-layout="default" data-count="default")
-    japanese-sign
-    particles
+    japanese-sign(v-bind:staticPath='staticPath')
+    particles(v-bind:staticPath='staticPath')
 
 </template>
 
@@ -17,6 +17,11 @@ import Particles from '~/components/Particles'
 export default {
   components: {
     Logo, JapaneseSign, Particles
+  },
+  computed: {
+    staticPath() {
+      return process.env.NODE_ENV == 'development' ? "" : "/lereglement-sale"
+    }
   }
 }
 </script>
