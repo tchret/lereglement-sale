@@ -20,25 +20,22 @@ export default {
 <style lang='stylus' scoped>
 .scene
   position relative
+  overflow hidden
 
 video
   position absolute
-  width 700px
+  max-width 700px
   margin: auto;
   left: 0
   right: 0
   top 0
-
-  @media(max-width: 700px) 
-    width: 400px
+  width: 100%
 
 svg 
   display block
   position relative
+  width: 100%
+  height: auto
   z-index 1  
-
-  @media(max-width: 700px) 
-    width: 400px
-    height: auto
   
 </style>
