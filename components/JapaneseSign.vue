@@ -29,9 +29,16 @@ video
   right: 0
   top 0
 
+  @media(max-width: 700px) 
+    width: 400px
+
 svg 
   display block
   position relative
   z-index 1  
+
+  @media(max-width: 700px) 
+    width: 400px
+    height: auto
   
 </style>
