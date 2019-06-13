@@ -20,12 +20,9 @@ export default {
     ],
     script: [
       { src: 'https://apis.google.com/js/platform.js' },
-      { src: 'https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js' }
+      { src: 'http://www.jsdelivr.com/#!particles.js' }
     ]
   },
-  router: {
-    base: '/lereglement-sale/'
-  }
   /*
    ** Customize the progress-bar color
    */
