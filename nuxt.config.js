@@ -1,5 +1,8 @@
 export default {
-  mode: 'universal',
+  mode: 'spa',
+  router: {
+    base: '/lereglement-sale/'
+  },
   /*
    ** Headers of the page
    */
