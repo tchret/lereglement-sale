@@ -20,7 +20,7 @@ export default {
   },
   computed: {
     staticPath() {
-      return process.env.NODE_ENV == 'development' ? "" : "/lereglement-sale"
+      return process.env.NODE_ENV == 'development' ? "" : "lereglement-sale"
     }
   }
 }
