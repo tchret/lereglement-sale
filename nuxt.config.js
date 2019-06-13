@@ -1,9 +1,3 @@
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: {
-    base: '/lereglement-sale/'
-  }
-} : {}
-
 export default {
   mode: 'universal',
   /*
@@ -29,7 +23,9 @@ export default {
       { src: 'https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js' }
     ]
   },
-  ...routerBase,
+  router: {
+    base: '/lereglement-sale/'
+  }
   /*
    ** Customize the progress-bar color
    */
