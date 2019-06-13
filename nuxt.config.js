@@ -20,7 +20,7 @@ export default {
     ],
     script: [
       { src: 'https://apis.google.com/js/platform.js' },
-      { src: 'https://cdn.jsdelivr.net/npm/particles.js@2.0.0' }
+      { src: 'http://www.jsdelivr.com/#!particles.js' }
     ]
   },
   /*
