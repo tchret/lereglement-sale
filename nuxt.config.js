@@ -8,7 +8,7 @@ export default {
   mode: 'universal',
   ...routerBase,
   head: {
-    title: process.env.npm_package_name || '',
+    title: "Le Règlement - Site Officiel",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -19,7 +19,7 @@ export default {
       }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
       { rel: 'stylesheet', href: "https://fonts.googleapis.com/css?family=Roboto+Mono:500,700&display=swap" }
     ],
     script: [
