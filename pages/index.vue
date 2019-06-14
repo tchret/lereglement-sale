@@ -4,7 +4,7 @@
       logo
       .menu
         a.current HOME
-        a(href='https://bigwax.io/collections/le-reglement' target='_blank') LE SHOP
+        a(href='https://shop.lereglement.sale' target='_blank') LE SHOP
         .left
           a(href='https://twitter.com/lereglement' target='_blank') TW
           a(href='https://www.instagram.com/le_reglement/' target='_blank') IG
