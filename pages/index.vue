@@ -11,7 +11,15 @@
           a(href='https://www.facebook.com/lereglement/' target='_blank') FB
       .yt-btn
         .g-ytsubscribe(data-channelid="UCcqe1EHmdaLVBwfqk5OtmXw" data-layout="default" data-count="default")
-    custom-video(v-bind:staticPath='staticPath')
+    div.content
+      .text L <br> E <br> <br> R <br> E <br> G <br> L <br> E <br> M <br> E <br> N <br> T <br>
+      .video-container
+        custom-video(v-bind:staticPath='staticPath')
+      .text P <br> O <br> I <br> N <br> T <br><br> S <br> A <br> L <br> E <br>
+      .text.mention 
+        a(href='https://tchret.com' target='_blank')  TCHRET
+        span ✕ BRODI
+    hero(v-bind:staticPath='staticPath')
     particles(v-bind:staticPath='staticPath')
 
 </template>
@@ -20,10 +28,11 @@
 import Logo from '~/components/Logo.vue'
 import CustomVideo from '~/components/JapaneseSign.vue'
 import Particles from '~/components/Particles'
+import Hero from '~/components/Hero'
 
 export default {
   components: {
-    Logo, CustomVideo, Particles
+    Logo, CustomVideo, Particles, Hero
   },
   computed: {
     staticPath() {
@@ -34,6 +43,37 @@ export default {
 </script>
 
 <style lang="stylus">
+
+.content 
+  display flex
+  align-items: center
+  width: 100%
+  position relative
+  .mention 
+    position absolute
+    left: 0
+    right: 0
+    text-align: center
+    z-index 99999
+    letter-spacing 5px
+    bottom -30px
+    a 
+      text-decoration none
+      color #BD00FF
+      margin-right: 10px
+
+      &:hover 
+        color darken(#BD00FF, 10%)
+
+  .text 
+    font-size: 14px;
+    color: #BD00FF
+    flex 1
+    text-align center
+    text-shadow: 0px 0px 2px #BD00FF, 0px 0px 2px #BD00FF, 0px 0px 5px #BD00FF;
+    line-height: 1.9
+    min-width: 110px
+
 .navbar 
   padding 32px
   display flex
