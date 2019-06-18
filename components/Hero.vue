@@ -3,31 +3,34 @@
       <div class='halo'></div>
 
   <div>
-    <div class='hero hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
-    <div class='hero hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
-    <div class='hero hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
-    <div class='hero hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
-    <div class='hero hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
-    <div class='hero hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
-    <div class='hero hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
-    <div class='hero hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
-    <div class='hero hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
-    <div class='hero hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
-    <div class='hero hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
-    <div class='hero hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
-    <div class='hero hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
-    <div class='hero hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
-    <div class='hero hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
-    <div class='hero hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
-    <div class='hero hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
-    <div class='hero hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
-    <div class='hero hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
-    <div class='hero hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
-    <div class='hero hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
-    <div class='hero hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
-    <div class='hero hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
-    <div class='hero hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
-    <div class='hero hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
+    <div class='group-1'>
+      <div class='hero h-1 hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
+      <div class='hero h-3 hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
+      <div class='hero h-5 hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
+      <div class='hero h-7 hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
+      <div class='hero h-9 hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
+      <div class='hero h-11 hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
+      <div class='hero h-13 hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
+      <div class='hero h-15 hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
+      <div class='hero h-17 hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
+      <div class='hero h-19 hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
+      <div class='hero h-21 hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
+      <div class='hero h-23 hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
+    </div>
+
+    <div class='group-2'>
+      <div class='hero h-2 hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
+      <div class='hero h-4 hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
+      <div class='hero h-6 hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
+      <div class='hero h-8 hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
+      <div class='hero h-10 hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
+      <div class='hero h-12 hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
+      <div class='hero h-14 hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
+      <div class='hero h-16 hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
+      <div class='hero h-18 hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
+      <div class='hero h-20 hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
+      <div class='hero h-22 hero-header' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
+    </div>
             
   </div>
   <div class='hero hero-base bottle' :style="{backgroundImage: `url(${staticPath}/hero667.png)`}"></div>
@@ -54,6 +57,8 @@ export default {
   top -15px
   transform: rotate(20deg)
   right: 120px
+  // animation: boxShadow 1s ease-in-out infinite
+
 .hero-container
   width: 350px;
   height 440px
@@ -65,9 +70,7 @@ export default {
   @media(max-width: 700px) 
     transform: scale(.65)
     left 0
-  
-  
-  
+   
 .hero 
   background-size cover
   position absolute
@@ -88,71 +91,89 @@ export default {
   filter blur(10px)
   z-index 1
 
-.hero-header 
-  clip rect(0, 290px, 5px, 0)
-  
-  &:nth-child(odd)
-    transform: translateX(10px)
+.group-1, .group-2
+  width: 350px
+  position: absolute
+  top: 0
+  bottom: 0
+  z-index 99
 
-  
-  &:nth-child(even)
-    transform: translateX(-10px)
+.group-1
+  transform translateX(10px)
+  animation leftAnimation .1s ease-in-out infinite alternate-reverse
+
+  .hero-header   
+    // display none
+
+.group-2
+  transform: translateX(-10px)
+  animation rightAnimation .1s ease-in-out infinite alternate-reverse
+
+  .hero-header
     left inherit
 
-.hero-header:nth-child(2)
+.hero-header.h-1
+  clip rect(0, 290px, 5px, 0)
+  display block
+
+.hero-header.h-2
   clip rect(5px, 290px, 10px, 0)
 
-.hero-header:nth-child(3)
+.hero-header.h-3
   clip rect(10px, 290px, 15px, 0)
 
-.hero-header:nth-child(4)
+.hero-header.h-4
   clip rect(15px, 290px, 20px, 0)
-.hero-header:nth-child(5)
+.hero-header.h-5
   clip rect(20px, 290px, 25px, 0)
-.hero-header:nth-child(6)
+.hero-header.h-6
   clip rect(25px, 290px, 30px, 0)
-.hero-header:nth-child(7)
+.hero-header.h-7
   clip rect(30px, 290px, 35px, 0)
-.hero-header:nth-child(8)
+.hero-header.h-8
   clip rect(35px, 290px, 40px, 0)
-.hero-header:nth-child(9)
+.hero-header.h-9
   clip rect(40px, 290px, 45px, 0)
-.hero-header:nth-child(10)
+.hero-header.h-10
   clip rect(50px, 290px, 55px, 0)
 
-.hero-header:nth-child(11)
+.hero-header.h-11
   clip rect(55px, 290px, 60px, 0)
   
-.hero-header:nth-child(12)
+.hero-header.h-12
   clip rect(60px, 290px, 65px, 0)
 
-.hero-header:nth-child(23)
+.hero-header.h-13
   clip rect(65px, 290px, 70px, 0)
 
-.hero-header:nth-child(13)
+.hero-header.h-14
   clip rect(70px, 290px, 75px, 0)
 
-.hero-header:nth-child(14)
+.hero-header.h-15
   clip rect(75px, 290px, 80px, 0)
 
-.hero-header:nth-child(15)
+.hero-header.h-16
   clip rect(80px, 290px, 85px, 0)
 
-.hero-header:nth-child(16)
+.hero-header.h-17
   clip rect(85px, 290px, 90px, 0)
 
-.hero-header:nth-child(17)
+.hero-header.h-18
   clip rect(90px, 290px, 95px, 0)
-.hero-header:nth-child(18)
+
+.hero-header.h-19
   clip rect(95px, 290px, 100px, 0)
-.hero-header:nth-child(19)
+
+.hero-header.h-20
   clip rect(100px, 290px, 105px, 0)
-.hero-header:nth-child(20)
+
+.hero-header.h-21
   clip rect(105px, 290px, 110px, 0)
 
-.hero-header:nth-child(21)
+.hero-header.h-22
   clip rect(110px, 290px, 115px, 0)
-.hero-header:nth-child(22)
+
+.hero-header.h-23
   clip rect(115px, 290px, 120px, 0)
 
 @keyframes rightAnimation 
@@ -164,5 +185,10 @@ export default {
   to 
     transform: translateX(-25px)
     opacity: .5
+
+@keyframes boxShadow
+  to 
+    box-shadow: 0px 0px 10px 0px #BD00FF, 0px 0px 10px 0px #BD00FF inset;
+
 </style>
 
