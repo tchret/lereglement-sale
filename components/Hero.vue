@@ -61,10 +61,10 @@ export default {
   margin auto 
   left 50px
   right 0
-  marign auto
   z-index 999
   @media(max-width: 700px) 
     transform: scale(.65)
+    left 0
   
   
   

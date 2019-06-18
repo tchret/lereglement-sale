@@ -17,8 +17,7 @@
         custom-video(v-bind:staticPath='staticPath')
       .text P <br> O <br> I <br> N <br> T <br><br> S <br> A <br> L <br> E <br>
       .text.mention 
-        a(href='https://tchret.com' target='_blank')  TCHRET
-        span ✕ BRODI
+        a(href='https://tchret.com' target='_blank') MADE BY TCHRET
     hero(v-bind:staticPath='staticPath')
     particles(v-bind:staticPath='staticPath')
 
@@ -73,6 +72,11 @@ export default {
     text-shadow: 0px 0px 2px #BD00FF, 0px 0px 2px #BD00FF, 0px 0px 5px #BD00FF;
     line-height: 1.9
     min-width: 110px
+
+    @media(max-width 700px)
+      opacity 0
+      min-width: 32px
+
 
 .navbar 
   padding 32px
