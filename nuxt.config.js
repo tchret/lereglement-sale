@@ -19,7 +19,7 @@ export default {
       },
       {
         property: "og:image",
-        content: "/meta.png" 
+        content: "http://lereglement.sale/meta.png" 
       }
     ],
     link: [
