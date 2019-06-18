@@ -57,7 +57,7 @@ export default {
   top -15px
   transform: rotate(20deg)
   right: 120px
-  // animation: boxShadow 1s ease-in-out infinite
+  animation: boxShadow 1s ease-in-out infinite alternate-reverse
 
 .hero-container
   width: 350px;
@@ -178,17 +178,17 @@ export default {
 
 @keyframes rightAnimation 
   to 
-    transform: translateX(25px)
+    transform: translateX(10px)
     opacity: .5
 
 @keyframes leftAnimation 
   to 
-    transform: translateX(-25px)
+    transform: translateX(-10px)
     opacity: .5
 
 @keyframes boxShadow
   to 
-    box-shadow: 0px 0px 10px 0px #BD00FF, 0px 0px 10px 0px #BD00FF inset;
+    box-shadow: 0px 0px 8px 0px #BD00FF, 0px 0px 6px 0px #BD00FF inset;
 
 </style>
 

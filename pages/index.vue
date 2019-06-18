@@ -17,7 +17,7 @@
         custom-video(v-bind:staticPath='staticPath')
       .text P <br> O <br> I <br> N <br> T <br><br> S <br> A <br> L <br> E <br>
       .text.mention 
-        a(href='https://tchret.com' target='_blank') MADE BY TCHRET
+        a(href='https://tchret.com' target='_blank') LE RÉGLEMENT <i>×</i> TCHRET 
     hero(v-bind:staticPath='staticPath')
     particles(v-bind:staticPath='staticPath')
 
@@ -35,7 +35,7 @@ export default {
   },
   computed: {
     staticPath() {
-      return process.env.NODE_ENV == 'development' ? "" : "/lereglement-sale"
+      return process.env.NODE_ENV == 'development' ? "" : ""
     }
   }
 }
@@ -56,6 +56,13 @@ export default {
     z-index 99999
     letter-spacing 5px
     bottom -30px
+
+    i
+      font-style normal
+      font-size: 18px
+      position relative
+      top 1px
+      font-weight 100
     a 
       text-decoration none
       color #BD00FF
