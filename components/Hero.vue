@@ -70,6 +70,7 @@ export default {
   @media(max-width: 700px) 
     transform: scale(.65)
     left 0
+    display none
    
 .hero 
   background-size cover
